@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Abhishek's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #000021;
+            color: white;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+        }
+
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .content {
+            margin-top: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            color: #b785e6;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 1rem;
+            color: gray;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skill {
+            background: #1e2167;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            font-size: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .skills {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .skill {
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        .home-button {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #b785e6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .home-button:hover {
+            background-color: #a370d1;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <img src="../images/m" alt="Profile Picture" class="profile-img">
+
+        <div class="content">
+            <div class="section">
+                <h2>Introduction</h2>
+                <p>
+                    Hi, I'm Abhishek, a passionate web developer and programmer. I love creating beautiful and functional websites and applications. With a strong foundation in HTML, CSS, JavaScript, and Python, I enjoy solving complex problems and learning new technologies.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Education</h2>
+                <p>
+                    I started my coding journey in class 9, where I learned the fundamentals of programming. I continued to enhance my skills by learning various programming languages and frameworks, including HTML, CSS, JavaScript, Python, and more.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Skills</h2>
+                <div class="skills">
+                    <div class="skill">HTML</div>
+                    <div class="skill">CSS</div>
+                    <div class="skill">JavaScript</div>
+                    <div class="skill">Python</div>
+                    <div class="skill">Node.js</div>
+                    <div class="skill">Express.js</div>
+                    <div class="skill">MongoDB</div>
+                    <div class="skill">Pandas</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Experience</h2>
+                <p>
+                    Over the past few years, I have worked on various projects, both personal and professional, that have helped me gain a solid understanding of web development. I have experience working with different teams and collaborating on projects, which has further enhanced my communication and teamwork skills.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Interests</h2>
+                <p>
+                    Apart from coding, I have a keen interest in research and learning about new advancements in technology. I am also a nature lover and enjoy spending time outdoors, exploring new places, and appreciating the beauty of nature.
+                </p>
+            </div>
+        </div>
+
+        <a href="../index.html" class="home-button">Go Home</a>
+    </div>
+
+    <footer>
+        Copyright &#169; Abhishek's Portfolio | All rights reserved
+    </footer>
+</body>
+
+</html>
